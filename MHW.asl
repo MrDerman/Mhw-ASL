@@ -11,7 +11,7 @@ start {}
 reset {}
 
 isLoading {
-   return !loadingCheck;
+   return !current.loadingCheck;
 }
 
 init {}
